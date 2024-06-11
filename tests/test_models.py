@@ -16,6 +16,7 @@ class TestModels(unittest.TestCase):
         magazine = Magazine(1, "Tech Weekly", "Technology")
         self.assertEqual(magazine.name, "Tech Weekly")
         self.assertEqual(magazine.category, "Technology")
+    
 
 if __name__ == "_main_":
     unittest.main()
